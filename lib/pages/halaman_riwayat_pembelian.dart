@@ -139,7 +139,8 @@ class _HalamanRiwayatPembelianState extends State<HalamanRiwayatPembelian> {
                             Container(
                               padding: const EdgeInsets.all(24),
                               decoration: BoxDecoration(
-                                color: const Color(0xFFFF0067)..withValues(alpha: 0.1),
+                                color: const Color(0xFFFF0067)
+                                  ..withValues(alpha: 0.1),
                                 shape: BoxShape.circle,
                               ),
                               child: const Icon(
@@ -232,9 +233,11 @@ class _HalamanRiwayatPembelianState extends State<HalamanRiwayatPembelian> {
           color: Colors.white,
           borderRadius: BorderRadius.circular(20),
           border: Border.all(
-            color: isBatal
-                ? Colors.red..withValues(alpha: 0.3)
-                : const Color(0xFFFF0067)..withValues(alpha: 0.2),
+            color:
+                isBatal
+                      ? Colors.red.withValues(alpha: 0.3)
+                      : const Color(0xFFFF0067)
+                  ..withValues(alpha: 0.2),
             width: 2,
           ),
           boxShadow: [
@@ -302,9 +305,11 @@ class _HalamanRiwayatPembelianState extends State<HalamanRiwayatPembelian> {
                                 vertical: 3,
                               ),
                               decoration: BoxDecoration(
-                                color: isBatal
-                                    ? Colors.grey..withValues(alpha: 0.2)
-                                    : const Color(0xFFFF0067)..withValues(alpha: 0.1),
+                                color:
+                                    isBatal
+                                          ? Colors.grey.withValues(alpha: 0.2)
+                                          : const Color(0xFFFF0067)
+                                      ..withValues(alpha: 0.1),
                                 borderRadius: BorderRadius.circular(6),
                               ),
                               child: Text(
@@ -325,9 +330,11 @@ class _HalamanRiwayatPembelianState extends State<HalamanRiwayatPembelian> {
                                 vertical: 3,
                               ),
                               decoration: BoxDecoration(
-                                color: isBatal
-                                    ? Colors.red..withValues(alpha: 0.1)
-                                    : Colors.green..withValues(alpha: 0.1),
+                                color:
+                                    isBatal
+                                          ? Colors.red.withValues(alpha: 0.1)
+                                          : Colors.green
+                                      ..withValues(alpha: 0.1),
                                 borderRadius: BorderRadius.circular(6),
                               ),
                               child: Text(
