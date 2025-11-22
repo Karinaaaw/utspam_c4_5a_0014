@@ -351,8 +351,10 @@ class _HalamanDetailPembelianState extends State<HalamanDetailPembelian> {
                                   begin: Alignment.topLeft,
                                   end: Alignment.bottomRight,
                                   colors: [
-                                    const Color(0xFFFF0067)..withValues(alpha: 0.2),
-                                    const Color(0xFFFF0067)..withValues(alpha: 0.1),
+                                    const Color(0xFFFF0067)
+                                      ..withValues(alpha: 0.2),
+                                    const Color(0xFFFF0067)
+                                      ..withValues(alpha: 0.1),
                                   ],
                                 ),
                                 borderRadius: BorderRadius.circular(20),
@@ -386,9 +388,11 @@ class _HalamanDetailPembelianState extends State<HalamanDetailPembelian> {
                                 vertical: 8,
                               ),
                               decoration: BoxDecoration(
-                                color: isBatal
-                                    ? Colors.grey..withValues(alpha: 0.2)
-                                    : const Color(0xFFFF0067)..withValues(alpha: 0.1),
+                                color:
+                                    isBatal
+                                          ? Colors.grey.withValues(alpha: 0.2)
+                                          : const Color(0xFFFF0067)
+                                      ..withValues(alpha: 0.1),
                                 borderRadius: BorderRadius.circular(10),
                               ),
                               child: Text(
@@ -409,9 +413,11 @@ class _HalamanDetailPembelianState extends State<HalamanDetailPembelian> {
                                 vertical: 8,
                               ),
                               decoration: BoxDecoration(
-                                color: isBatal
-                                    ? Colors.red..withValues(alpha: 0.1)
-                                    : Colors.green..withValues(alpha: 0.1),
+                                color:
+                                    isBatal
+                                          ? Colors.red.withValues(alpha: 0.1)
+                                          : Colors.green
+                                      ..withValues(alpha: 0.1),
                                 borderRadius: BorderRadius.circular(10),
                               ),
                               child: Row(
