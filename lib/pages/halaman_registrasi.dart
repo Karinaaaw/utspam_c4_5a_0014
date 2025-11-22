@@ -394,8 +394,6 @@ class _HalamanRegistrasiState extends State<HalamanRegistrasi> {
                           style: TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
-                            decoration: TextDecoration.underline,
-                            decorationThickness: 2,
                           ),
                         ),
                       ),
