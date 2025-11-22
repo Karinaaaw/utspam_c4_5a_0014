@@ -4,7 +4,7 @@ import '../models/transaksi.dart';
 import '../models/pengguna.dart';
 import '../data/data_obat.dart';
 import '../services/manajer_penyimpanan.dart';
-import 'halaman_riwayat_pembelian.dart';
+import 'riwayat_pembelian.dart';
 
 class HalamanFormulirPembelian extends StatefulWidget {
   final Obat? obat;

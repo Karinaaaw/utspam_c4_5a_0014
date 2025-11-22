@@ -3,8 +3,8 @@ import 'package:intl/intl.dart';
 import '../models/transaksi.dart';
 import '../models/pengguna.dart';
 import '../services/manajer_penyimpanan.dart';
-import 'halaman_utama.dart';
-import 'halaman_detail_pembelian.dart';
+import 'dashboard.dart';
+import 'detail_pembelian.dart';
 
 class HalamanRiwayatPembelian extends StatefulWidget {
   const HalamanRiwayatPembelian({super.key});

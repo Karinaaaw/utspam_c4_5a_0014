@@ -3,10 +3,10 @@ import '../models/pengguna.dart';
 import '../models/obat.dart';
 import '../data/data_obat.dart';
 import '../services/manajer_penyimpanan.dart';
-import 'halaman_login.dart';
-import 'halaman_formulir_pembelian.dart';
-import 'halaman_riwayat_pembelian.dart';
-import 'halaman_profil.dart';
+import 'login.dart';
+import 'formulir_pembelian.dart';
+import 'riwayat_pembelian.dart';
+import 'profil.dart';
 
 class HalamanUtama extends StatefulWidget {
   const HalamanUtama({super.key});
@@ -199,15 +199,6 @@ class _HalamanUtamaState extends State<HalamanUtama> {
                       const SizedBox(height: 20),
                       Row(
                         children: [
-                          Expanded(
-                            child: _buatKartuMenu(
-                              ikon: Icons.shopping_bag_rounded,
-                              judul: 'Beli Obat',
-                              warna: const Color(0xFFFF0067),
-                              onTap: () {},
-                            ),
-                          ),
-                          const SizedBox(width: 16),
                           Expanded(
                             child: _buatKartuMenu(
                               ikon: Icons.history_rounded,

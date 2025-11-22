@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../models/transaksi.dart';
 import '../services/manajer_penyimpanan.dart';
-import 'halaman_riwayat_pembelian.dart';
-import 'halaman_edit_transaksi.dart';
+import 'riwayat_pembelian.dart';
+import 'edit_transaksi.dart';
 
 class HalamanDetailPembelian extends StatefulWidget {
   final String idTransaksi;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/manajer_penyimpanan.dart';
-import 'halaman_registrasi.dart';
-import 'halaman_utama.dart';
+import 'registrasi.dart';
+import 'dashboard.dart';
 
 class HalamanLogin extends StatefulWidget {
   const HalamanLogin({super.key});

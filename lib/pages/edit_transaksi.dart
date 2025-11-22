@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/transaksi.dart';
 import '../services/manajer_penyimpanan.dart';
-import 'halaman_detail_pembelian.dart';
+import 'detail_pembelian.dart';
 
 class HalamanEditTransaksi extends StatefulWidget {
   final Transaksi transaksi;
