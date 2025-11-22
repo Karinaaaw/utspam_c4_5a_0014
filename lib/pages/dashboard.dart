@@ -224,7 +224,7 @@ class _HalamanUtamaState extends State<HalamanUtama> {
                             child: _buatKartuMenu(
                               ikon: Icons.person_rounded,
                               judul: 'Profil',
-                              warna: const Color(0xFFFF6699),
+                              warna: const Color(0xFFFF3385),
                               onTap: () {
                                 Navigator.push(
                                   context,
@@ -240,7 +240,7 @@ class _HalamanUtamaState extends State<HalamanUtama> {
                             child: _buatKartuMenu(
                               ikon: Icons.exit_to_app_rounded,
                               judul: 'Keluar',
-                              warna: const Color(0xFFFF99B3),
+                              warna: const Color(0xFFFF3385),
                               onTap: _keluar,
                             ),
                           ),
